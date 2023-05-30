@@ -1,0 +1,190 @@
+@media screen and (max-width: 786px) 
+.hero-section
+{
+    min-height:50vh;  
+}
+.hero-section
+{
+    text-align: center;
+    background-image:url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+@media screen and (max-width:786px)
+.hero-text
+{
+    font-size: 20px;
+}
+.hero-text
+{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 0 0 3px black;
+}
+@media screen and (max-width:786px)
+.hero-content
+{
+    font-size: 40px;
+}
+.hero-content
+{
+    font-size: 60px;
+}
+.work
+{
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:786px)
+.card-container
+{
+    flex-direction:column;
+    align-items:center;
+}
+.card-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    max-width:1100px;
+    margin: 50px auto;
+    gap: 20px;
+}
+.grid-items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    max-width: 340px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+}
+.card-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0 0;
+    height: 15rem;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.card-content
+{
+    padding: 20px;
+}
+@media screen and (max-width: 786px)
+.bottom-section {
+    flex-direction: column;
+}
+.bottom-section {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+.Contact, .About {
+    min-height: 300px;
+    color: white;
+    padding: 32px;
+}
+.Contact {
+    background: linear-gradient(to left,white,#050546b7);
+    margin: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.Contact>h2, .About>h2 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-family: Arial;
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.Contact p, .About p {
+    margin-bottom: 20px;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.About {
+    min-height: 300px;
+    color: white;
+    padding: 32px;
+}
+
+.About {
+    background: linear-gradient(to left,#0808d3bf,white);
+    margin: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
